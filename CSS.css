@@ -1,0 +1,57 @@
+#toolbox{
+    background-color: #1b4a5aff !important;
+}
+
+.navbar .navbar-brand {
+    color: white !important;
+}
+#prijava{
+    background-color: #1f6d7fff !important;
+    color: white;
+    font-weight: bold;
+}
+
+#odjava{
+    background-color: rgb(253, 76, 76);
+    color: white;
+    font-weight: bold;
+    display: none;
+}
+
+#main{
+    background-color: white;
+    margin-top: 1%;
+    display: flex;
+    height: calc(100vh - 85px);
+    visibility: hidden;
+}
+
+#main2{
+    background-color: white;
+    margin-top: 1%;
+
+    display: flex;
+}
+
+#driverLicenseForm{
+    visibility: hidden;
+}
+
+body{
+    background-color: #e3dbdbfe;
+}
+#driverLicenseForm{
+    padding-top: calc(25vh - 85px);
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
